@@ -459,11 +459,31 @@ function cleanDesignSnapshot(snapshot) {
     return node;
   }
   snapshot.root = visit(snapshot.root, true);
+  // Visit all inline descendants and pseudo elements, including the subtrees
+  // whose geometry is intentionally preserved by freeze's early returns.
+  const constrainedWidths=new WeakSet();
+  function stripWidthConstraints(node){
+    if(node?.nodeType!==1)return;
+    for(const bag of [node.styles,node.computedStyles,node.variableStyles])if(bag){
+      for(const key of Object.keys(bag))if(/^(min|max)(Width|InlineSize)$|^(min|max)-(width|inline-size)$/.test(key)){
+        if(!['none','auto','normal','0','0px'].includes(String(bag[key])))constrainedWidths.add(node);
+        delete bag[key];
+      }
+    }
+    for(const child of node.childNodes||[])stripWidthConstraints(child);
+    for(const pseudo of Object.values(node.pseudoElementNodes||{}))stripWidthConstraints(pseudo);
+  }
+  stripWidthConstraints(snapshot.root);
   function freeze(node, parent, insideButton=false) {
     if (node.nodeType !== 1) return;
     const styles = node.styles ||= {};
     if(inlineNodes.has(node))return;
     const button=CLEAN_TEXT_RULES.captureButton(node);
+    if(constrainedWidths.has(node)&&(button||insideButton)&&rectValid(node.rect)){
+      styles.width=`${node.rect.width}px`;
+      styles.boxSizing='border-box';
+      for(const bag of [node.computedStyles,node.variableStyles])if(bag)delete bag.width;
+    }
     const buttonWidth=styles.width,buttonHeight=styles.height;
     if(button && !/flex/.test(styles.display||''))Object.assign(styles,{display:'flex',flexDirection:'row',alignItems:'center',justifyContent:'center'});
     if(insideButton){
