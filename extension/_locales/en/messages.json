@@ -1,0 +1,454 @@
+{
+   "addToInvite": {
+      "description": "Button text for the button which adds files to the invite",
+      "message": "Add to event"
+   },
+   "attachModalTitle": {
+      "description": "Title for the modal when attaching files",
+      "message": "Recents"
+   },
+   "authErrorGenericDescription": {
+      "description": "Description text displayed when login fails for an unknown reason",
+      "message": "It looks like we’re having issues—mind trying that again? If you keep having trouble, $1."
+   },
+   "authErrorGenericRefreshButton": {
+      "description": "Button text which will refresh the page",
+      "message": "Try again"
+   },
+   "authErrorGenericTitle": {
+      "description": "Title of modal displayed when login fails for an unknown reason",
+      "message": "Something’s gone wrong"
+   },
+   "authErrorNetworkDescription": {
+      "description": "Description text displayed when the user could not connect to Figma to login",
+      "message": "You may need to check your connection, then try again. If you keep having trouble, $1."
+   },
+   "authErrorNetworkRetryButton": {
+      "description": "Button text which will retry login",
+      "message": "Try again"
+   },
+   "authErrorNetworkTitle": {
+      "description": "Title of modal displayed when the user could not connect to Figma to login",
+      "message": "Couldn’t connect"
+   },
+   "calButtonFigjam": {
+      "description": "Button text for the button on the Calendar invite which enters the FigJam flow",
+      "message": "Add FigJam board"
+   },
+   "calButtonFigmaDesign": {
+      "description": "Button text for the button on the Calendar invite which enters the Figma Design flow",
+      "message": "Add Figma file"
+   },
+   "calButtonMore": {
+      "description": "Dropdown to add more files after the initial time",
+      "message": "Add more files"
+   },
+   "calExpandButton": {
+      "description": "This is the text for the expand button in the file list",
+      "message": "$1 more files"
+   },
+   "calExpandButtonCollapse": {
+      "description": "This is the text for the expand button in the file list (when already expanded)",
+      "message": "Hide $1 files"
+   },
+   "calLoadingState": {
+      "description": "Text shown in the calendar invite when we are adding files to the invite",
+      "message": "Adding files"
+   },
+   "calendarLoginModalSubtext": {
+      "description": "Subtext shown on the login modal, which prompts the user to login with Figma",
+      "message": "Set up brainstorms, crits, and more—all in a snap. $1 lets you attach Figma and FigJam files directly to events in Google Calendar."
+   },
+   "calendarLoginModalTitleText": {
+      "description": "Title text shown on the login modal, which prompts the user to login with Figma",
+      "message": "Design better meetings"
+   },
+   "cancelAction": {
+      "description": "Generic cancel button label for in-progress actions",
+      "message": "Cancel"
+   },
+   "cancelButton": {
+      "description": "Button text for cancel buttons, which go back to the previous page",
+      "message": "Cancel"
+   },
+   "closeButton": {
+      "description": "Button text for close button, which hides the toolbar",
+      "message": "Close"
+   },
+   "contactUs": {
+      "description": "Contact us text",
+      "message": "contact us"
+   },
+   "createFilesButton": {
+      "description": "Create file button",
+      "message": "Create file"
+   },
+   "createFilesErrorBellText": {
+      "description": "Text shown in a visual bell when we fail to create a file",
+      "message": "Couldn’t create file"
+   },
+   "createModalTitle": {
+      "description": "Title for the modal when creating files",
+      "message": "Create new file"
+   },
+   "figjam": {
+      "description": "Button text for the button which opens a FigJam board",
+      "message": "FigJam board"
+   },
+   "figmaDesign": {
+      "description": "Button text for the button which opens a Figma design",
+      "message": "Design file"
+   },
+   "h2dActionFailed": {
+      "description": "Generic fallback error text shown when a toolbar action fails unexpectedly",
+      "message": "Something went wrong"
+   },
+   "h2dCaptureCodeBatchTooLarge": {
+      "description": "Shown when a clipboard batch containing MHTML captures exceeds the paste size limit.",
+      "message": "These captures are too large to copy together. Remove some captures and try again."
+   },
+   "h2dCaptureCodeBusy": {
+      "description": "Shown when a previous native capture has not finished.",
+      "message": "A capture is still finishing. Please try again shortly."
+   },
+   "h2dCaptureCodeButton": {
+      "description": "Action that saves the current tab as an MHTML code capture in the capture tray.",
+      "message": "Capture code"
+   },
+   "h2dCaptureCodePageChanged": {
+      "description": "Shown when navigation invalidates an in-progress MHTML capture.",
+      "message": "The page changed during capture. Please try again."
+   },
+   "h2dCaptureCodePermissionRequired": {
+      "description": "Shown when the pageCapture permission is missing or revoked.",
+      "message": "Allow page capture access to capture code."
+   },
+   "h2dCaptureCodeTooLarge": {
+      "description": "Shown when the MHTML archive or its message exceeds the capture size limit.",
+      "message": "This page is too large to capture code."
+   },
+   "h2dCaptureCodeUnavailable": {
+      "description": "Shown for unsupported tabs or missing capture context.",
+      "message": "Code capture is not available on this page."
+   },
+   "h2dCapturePageButton": {
+      "description": "Button text to capture the full page as Figma layers",
+      "message": "Capture design"
+   },
+   "h2dCapturePageError": {
+      "description": "Error message when capturing the page fails",
+      "message": "Failed to capture page"
+   },
+   "h2dCapturePreviewAlt": {
+      "description": "Alt text for the capture preview thumbnail image",
+      "message": "Capture preview"
+   },
+   "h2dCaptureTitle": {
+      "description": "Title for the HTML to Design capture toolbar",
+      "message": "Figma"
+   },
+   "h2dCapturingText": {
+      "description": "Loading text shown while capturing a page",
+      "message": "Capturing..."
+   },
+   "h2dCopiedText": {
+      "description": "Success text shown after copying to clipboard",
+      "message": "Copied to clipboard"
+   },
+   "h2dCopyButton": {
+      "description": "Button text to copy all captures to clipboard",
+      "message": "Copy all"
+   },
+   "h2dCopyCodeToClipboardButton": {
+      "description": "Label for copying an MHTML capture from the capture tray.",
+      "message": "Copy as Code Layer"
+   },
+   "h2dCopyFailed": {
+      "description": "Error text shown when clipboard write fails (e.g. permission denied, focus lost)",
+      "message": "Failed to copy"
+   },
+   "h2dCopyToClipboardButton": {
+      "description": "Button text to copy captures as Figma layers to clipboard",
+      "message": "Copy as Figma layers"
+   },
+   "h2dDeleteCaptureButton": {
+      "description": "Aria label for the button to delete a capture",
+      "message": "Delete"
+   },
+   "h2dDismissAllButton": {
+      "description": "Button text to discard all captures",
+      "message": "Discard all"
+   },
+   "h2dLoadingText": {
+      "description": "Generic loading text",
+      "message": "Loading..."
+   },
+   "h2dSelectElementButton": {
+      "description": "Button text to select a specific element on the page",
+      "message": "Select element"
+   },
+   "h2dSelectElementError": {
+      "description": "Error message when element selection fails",
+      "message": "Failed to select element"
+   },
+   "loginButton": {
+      "description": "Text displayed in the button that logs the user in",
+      "message": "Log in with Figma"
+   },
+   "loginModalPolicy": {
+      "description": "Disclaimer below the capture login description. $1 is the Acceptable Use Policy link.",
+      "message": "Figma’s $1 applies to use of this extension."
+   },
+   "loginModalSubtext": {
+      "description": "Subtext shown on the login modal, which prompts the user to login with Figma",
+      "message": "Capture your website and paste it to the canvas as a code layer or design. Spin off new ideas in Figma design, FigJam, or wherever design happens."
+   },
+   "loginModalTitleText": {
+      "description": "Title text shown on the login modal, which prompts the user to login with Figma",
+      "message": "Your website on canvas"
+   },
+   "logoutButton": {
+      "description": "Text displayed in the button that logs the user out",
+      "message": "Sign out"
+   },
+   "modalStatusFilesJoin": {
+      "description": "When more than 1 file is selected, this joins the file names together. Ex. File1 and File2",
+      "message": "and"
+   },
+   "modalStatusFilesSuffix": {
+      "description": "When 1 or more files are selected, this text is shown after the file names. Ex. 3 or more files will be added to the event invite.",
+      "message": "will be added to the event invite."
+   },
+   "modalStatusNoFiles": {
+      "description": "When no files are selected, this is the string which instructs the user to select files in the picker.",
+      "message": "Choose a few files to add."
+   },
+   "nameLabel": {
+      "description": "Name field in the Create new file modal",
+      "message": "Name"
+   },
+   "newFigjam": {
+      "description": "Button text for the button which creates a new FigJam board",
+      "message": "New FigJam board"
+   },
+   "newFigmaDesign": {
+      "description": "Button text for the button which creates a new Figma file",
+      "message": "New Figma file"
+   },
+   "noFilesFound": {
+      "description": "Text shown in the file picker when searching for a file yields empty results",
+      "message": "No files to display."
+   },
+   "optionsCapturePermissionsClipboardDescription": {
+      "description": "Explains clipboard access. $1 is the emphasized permission name.",
+      "message": "$1 allows your website code to be copied to the clipboard"
+   },
+   "optionsCapturePermissionsClipboardTitle": {
+      "description": "Name of the Chrome clipboard access permission",
+      "message": "Modify data you copy and paste"
+   },
+   "optionsCapturePermissionsCta": {
+      "description": "Requests all capture permissions together, then resumes the originating tab or continues onboarding.",
+      "message": "Next"
+   },
+   "optionsCapturePermissionsDeniedHint": {
+      "description": "Warning shown when the user declines the Chrome permission prompt",
+      "message": "Access wasn't granted"
+   },
+   "optionsCapturePermissionsIntro": {
+      "description": "Introduces the Chrome permissions required by the extension",
+      "message": "You’ll be asked to approve these permissions:"
+   },
+   "optionsCapturePermissionsPolicy": {
+      "description": "Link label in the capture permission disclaimer",
+      "message": "Acceptable Use Policy"
+   },
+   "optionsCapturePermissionsTitle": {
+      "description": "Heading shown before requesting Chrome website and clipboard permissions",
+      "message": "Allow additional permissions from Chrome"
+   },
+   "optionsCapturePermissionsWebsiteDescription": {
+      "description": "Explains website access. $1 is the emphasized permission name.",
+      "message": "$1 allows your website to be read by the Figma extension"
+   },
+   "optionsCapturePermissionsWebsiteTitle": {
+      "description": "Name of the Chrome website access permission",
+      "message": "Read and change website data"
+   },
+   "optionsFeatureCalendarDescription": {
+      "description": "Description for the Google Calendar feature on the options page",
+      "message": "Create a new Google calendar event—you’ll see a few new controls."
+   },
+   "optionsFeatureCalendarTitle": {
+      "description": "Title for the Google Calendar feature on the options page",
+      "message": "Attach Figma files to Google Calendar"
+   },
+   "optionsFeatureCaptureDescription": {
+      "description": "Description for the webpage capture feature on the options page. $1 is a 'Learn more' link.",
+      "message": "Click the Figma icon in your toolbar to capture the current page as Figma layers. $1"
+   },
+   "optionsFeatureCapturePaidPlan": {
+      "description": "Status shown on the options page when the webpage capture feature is unavailable because the user is not on a paid plan",
+      "message": "Available on paid plans"
+   },
+   "optionsFeatureCaptureReauth": {
+      "description": "Status shown on the options page when the webpage capture feature is unavailable because the user's plan information is missing and they need to sign in again",
+      "message": "Please login again to access this feature"
+   },
+   "optionsFeatureCaptureTitle": {
+      "description": "Title for the webpage capture feature on the options page",
+      "message": "Capture your website to canvas"
+   },
+   "optionsFeatureLearnMore": {
+      "description": "Link text for the 'Learn more' link at the end of a feature description on the options page",
+      "message": "Learn more"
+   },
+   "optionsFileAccessCta": {
+      "description": "Button on the options page that opens the extension's details page where the file-access setting can be enabled",
+      "message": "Open extension settings"
+   },
+   "optionsFileAccessRetry": {
+      "description": "Secondary button on the options page that re-checks file access after the user enables it, then closes the tab so they can retry the capture",
+      "message": "Try again"
+   },
+   "optionsFileAccessRetryHint": {
+      "description": "Warning banner shown when the user clicks Try again but the file-access setting is still off",
+      "message": "Local file access still isn't enabled"
+   },
+   "optionsFileAccessSetting": {
+      "description": "Label of the (non-interactive) pill illustrating the Chrome extension setting the user must enable; mirrors the toggle on the extension's details page",
+      "message": "Allow access to file URLs"
+   },
+   "optionsFileAccessTitle": {
+      "description": "Heading shown on the options page when the user tried to capture a local file:// page without file access enabled",
+      "message": "To capture local files, enable this setting on Figma's Chrome extension page:"
+   },
+   "optionsLoggedInAs": {
+      "description": "Account label on the permissions screen. $1 is the signed-in user's email address.",
+      "message": "Logged in as $1."
+   },
+   "optionsNotLoggedInDescription": {
+      "description": "Description shown on the options page when the user is not logged in",
+      "message": "Open the Figma extension popup to sign in."
+   },
+   "optionsNotLoggedInTitle": {
+      "description": "Title shown on the options page when the user is not logged in",
+      "message": "Not signed in"
+   },
+   "optionsOnboardingCaptureDescription": {
+      "description": "Body copy for the second onboarding step explaining code and design captures",
+      "message": "Capture your code and paste onto the canvas for a new code layer. You can also capture your designs and paste them to the canvas."
+   },
+   "optionsOnboardingCaptureImageAlt": {
+      "description": "Alt text for the illustration on the second onboarding step",
+      "message": "The Figma capture toolbar overlaid on a website"
+   },
+   "optionsOnboardingCaptureTitle": {
+      "description": "Heading for the second onboarding step, which explains capturing code or designs",
+      "message": "Capture code or design"
+   },
+   "optionsOnboardingCta": {
+      "description": "Button at the end of onboarding that opens the shared capture permission flow",
+      "message": "Get started"
+   },
+   "optionsOnboardingPasteDescription": {
+      "description": "Body copy for the third onboarding step explaining what to do after pasting",
+      "message": "Once you’ve pasted to Figma, you can work with code layers and designs on the canvas."
+   },
+   "optionsOnboardingPasteImageAlt": {
+      "description": "Alt text for the illustration on the third onboarding step",
+      "message": "A captured website pasted onto the Figma canvas as editable layers"
+   },
+   "optionsOnboardingPasteTitle": {
+      "description": "Heading for the third onboarding step, which describes editing captures in Figma",
+      "message": "Edit in Figma"
+   },
+   "optionsOnboardingPinDescription": {
+      "description": "Body copy for the first onboarding step explaining why to pin the extension",
+      "message": "Pinning keeps it in your toolbar, so you don't have to open the Extensions menu every time."
+   },
+   "optionsOnboardingPinImageAlt": {
+      "description": "Alt text for the illustration on the first onboarding step",
+      "message": "The Chrome Extensions menu with the Figma extension's pin button highlighted"
+   },
+   "optionsOnboardingPinTitle": {
+      "description": "Heading for the first onboarding step, which asks the user to pin the extension to their browser toolbar",
+      "message": "Pin the extension"
+   },
+   "optionsOnboardingReadyDescription": {
+      "description": "Explains the next step and links to the Acceptable Use Policy. $1 is the policy link.",
+      "message": "Accept the Chrome permissions to start capturing.\nFigma’s $1 applies to use of this extension."
+   },
+   "optionsOnboardingReadyTitle": {
+      "description": "Heading for the final onboarding section introducing capture permissions",
+      "message": "Ready to get started?"
+   },
+   "optionsOnboardingSubtitle": {
+      "description": "Subtitle under the onboarding heading summarizing what the extension does",
+      "message": "Capture your website and bring it into Figma as an editable design."
+   },
+   "optionsOnboardingTitle": {
+      "description": "Heading at the top of the extension onboarding reference page",
+      "message": "Using the Figma extension"
+   },
+   "optionsProfileImageAlt": {
+      "description": "Alt text for the user's profile image on the options page",
+      "message": "Profile picture"
+   },
+   "productName": {
+      "description": "Name of the product",
+      "message": "Figma Chrome extension"
+   },
+   "recentFilesErrorDescription": {
+      "description": "Description of the modal when we fail to fetch the user's recent files",
+      "message": "It looks like we’re having issues—mind trying that again? If you keep having trouble, $1."
+   },
+   "recentFilesErrorRetryButton": {
+      "description": "Button text which will try to fetch recent files again",
+      "message": "Try again"
+   },
+   "recentFilesErrorTitle": {
+      "description": "Title of the modal when we fail to fetch the user's recent files",
+      "message": "Something’s gone wrong"
+   },
+   "searchInput": {
+      "description": "Default search bar text placeholder",
+      "message": "Search files..."
+   },
+   "selectElementShortcuts": {
+      "description": "Adjust-affordance copy shown after the lead-in in the H2D toolbar's element-selection status row. `\u003Ckbd>FOO\u003C/kbd>` markers render as keyboard-key chips.",
+      "message": "\u003Ckbd>↑\u003C/kbd> \u003Ckbd>↓\u003C/kbd> to adjust"
+   },
+   "selectElementShortcutsCompact": {
+      "description": "Narrow-viewport variant of `selectElementShortcuts`, swapped in below the H2D toolbar's collapse breakpoint. `\u003Ckbd>FOO\u003C/kbd>` markers render as keyboard-key chips.",
+      "message": "\u003Ckbd>↑\u003C/kbd> \u003Ckbd>↓\u003C/kbd> Adjust"
+   },
+   "selectElementToCapture": {
+      "description": "Lead-in copy for the H2D toolbar's element-selection status row, mirroring the `Select element` action button label that opens this mode.",
+      "message": "Select an element"
+   },
+   "selectElementToCaptureCompact": {
+      "description": "Narrow-viewport variant of `selectElementToCapture`, swapped in below the H2D toolbar's collapse breakpoint so the status row does not clip on small screens.",
+      "message": "Select element"
+   },
+   "signedInModalSubtext": {
+      "description": "Subtext shown on the modal when the user has signed in. The user sees their profile, and a sign out button",
+      "message": "You’ve signed in to $1. To try it out, create a Google Calendar event—you’ll see a few new controls."
+   },
+   "signedInModalTitleText": {
+      "description": "Title text shown on the modal when the user has signed in. The user sees their profile, and a sign out button",
+      "message": "You’re all set"
+   },
+   "templatesExpandButton": {
+      "description": "Show more templates in the templates topbar",
+      "message": "See more"
+   },
+   "templatesHideButton": {
+      "description": "Hide additional templates in the templates topbar",
+      "message": "See less"
+   },
+   "templatesTitle": {
+      "description": "Templates header for the templates topbar",
+      "message": "Templates"
+   }
+}

@@ -1,0 +1,4 @@
+Local experiment derived from installed Figma extension 1.3.27.
+Original bundle SHA-256: e751718ade34c5730d70f12b10571833706d3902145d9c6538431047ba23d36a
+Upstream ownership and third-party notices remain applicable.
+Not an official Figma build; not packaged for store distribution.

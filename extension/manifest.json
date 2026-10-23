@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Clean Capture \u2014 local experiment",
+  "version": "0.1.13",
+  "description": "Capture editable designs with absolute positions and fewer wrappers.",
+  "minimum_chrome_version": "116",
+  "default_locale": "en",
+  "action": {
+    "default_title": "Clean Capture"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "unlimitedStorage",
+    "clipboardWrite",
+    "downloads"
+  ],
+  "optional_host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
